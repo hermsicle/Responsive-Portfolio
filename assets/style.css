@@ -1,0 +1,352 @@
+/* This is for Contact.css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    transform: translate(-6px,-3px);
+    text-shadow: 1px 1px 1px teal;
+    transition: all 0.15s ease-in;
+
+}
+
+header nav {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+a {
+    color: #777777;
+    font-size: 1.25rem;
+    float: right;
+    display: flex;
+    text-decoration: none;
+    list-style: none;   
+}
+.vertical-line1 {
+    width: 0.75px;
+    background-color: #777777;
+    height: 20px;
+    margin-top: 25px;
+    opacity: .25;
+}
+
+a:not(last-child) {
+    margin: 25px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    background-color: teal;
+    display: flex;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.name {
+    position: absolute; 
+    left: 360px;
+    text-align: center;
+    padding: 27px;
+}
+
+
+ul {
+    float: right;
+    display: flex;
+    text-decoration: none;
+    list-style: none;   
+    max-width: 960px;
+}
+
+main {
+    height: 80vh;
+    background-color: whitesmoke;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #777777;
+}
+
+.wrapper {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact-container {
+    height: 55vh;
+    width: 960px;
+    background-color: white;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+
+}
+.contact {
+    color: teal;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+form {
+    font-size: 1.15rem;
+    margin-top: 20px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+.input1 {
+    font-size: 12pt;
+    width: 900px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.input2 {
+    font-size: 12pt;
+    width: 900px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.input3 {
+    font-size:12pt;
+    width: 900px;
+    height: 150px;
+}
+
+.btn {
+    color: white;
+    background-color: teal;
+    display: block;
+    border: none;
+    text-align: center;
+    padding: 14px 28px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.form-container {
+    height:35vh;
+    width: 900px;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: solid;
+    border-color: #dddddd;
+    border-width: 2.5px;
+    
+}
+
+footer {
+    height: 10vh;
+    background-color: #666666;
+    border-top-style: solid; 
+    border-width: 10px;
+    border-color: teal;
+}
+/*This is the end of Contact.css*/
+
+/*This is going to be for About-me */
+
+.aboutme-container {
+    height:50vh;
+    width: 900px;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: solid;
+    border-color:#dddddd;
+    border-width: 2.5px;
+}
+.img {
+    height: 250px;
+    width: 160px;
+    margin-top: 15px;
+    float: left;
+}
+.container1 {
+    height: 70vh;
+    width: 960px;
+    background-color: white;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+
+.p {
+    color: #777777;
+    line-height: 25pt;
+    margin-top: 15px; 
+    text-align: center;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/*This is the end of about me for css*/
+
+/*This is style for portfolio */
+
+.portfolio {
+    color: teal;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20pt;
+}
+
+.portfolio-container {
+    height: 75vh;
+    width: 750px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.port-container {
+    height:60vh;
+    width: 690px;
+    background-color: white;
+    position:absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: solid;
+    border-color: #dddddd;
+    border-width: 2.5px;
+}
+
+.name1 {
+    position: absolute; 
+    left: 465px;
+    text-align: center;
+    padding: 27px;
+}
+
+.ul {
+    float: right;
+    display: flex;
+    text-decoration: none;
+    list-style: none;   
+    max-width: 500px;
+    margin-right: 80px;
+}
+
+img {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    float: left;
+}
+.img1 {
+    height: 150px;
+    width: 220px;
+}
+.img2 {
+    height: 150px;
+    width: 220px;
+}
+.img3 {
+    height: 150px;
+    width: 220px;
+}
+.img4 {
+    height: 150px;
+    width: 220px;
+}
+.img5 {
+    height: 150px;
+    width: 220px;
+}
+
+
+.text-block1 {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    background-color: teal;
+    color: white;
+    padding-left: 71px;
+    padding-right:80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-block2 {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    background-color:teal;
+    color: white;
+    padding-left: 70px;
+    padding-right:68px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-block3 {
+    position: absolute;
+    top: 308px;
+    left: 10px;
+    background-color:teal;
+    color: white;
+    padding-left: 66px;
+    padding-right:68px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-block4 {
+    position: absolute;
+    top: 308px;
+    left: 250px;
+    background-color:teal;
+    color: white;
+    padding-left: 40px;
+    padding-right:39px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-block5 {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    background-color:teal;
+    color: white;
+    padding-left: 35px;
+    padding-right:37px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
