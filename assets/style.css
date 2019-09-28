@@ -380,11 +380,37 @@ p {
     }
     /* End of contact */
 
+    /*Aout Me */
+    .container1 {
+        width: 550px;
+        left: 33%;
+        height: 450px;
+        top: 40%;
+    }
+    .contact {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    .aboutme-container {
+        width: 500px;
+        height: 340px;
+    }
+    p {
+        font-size: 8px;
+        font
+    }
+    .img {
+        height: 100px;
+        width: 75px;
+    }
 }
 @media screen and (max-width: 768px) {
     /* contact */
     .name {
         margin-left: 25px;
+    }
+    nav ul li {
+
     }
     .contact-container {
         margin-left: 110px;
@@ -414,6 +440,18 @@ p {
     header {
         position: static;
     }
+    .name , .nav-link-container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        height: -100px;
+        flex-direction: row;
+    }
+    .nav-link-container {
+        position: static;
+        display: 
+    }
     .contact-container {
         width: 600px;
         margin-left:90px;
@@ -430,6 +468,4 @@ p {
     .input3 {
         width: 550px;
     }
-    
-        
-    }
+    /*contact */
