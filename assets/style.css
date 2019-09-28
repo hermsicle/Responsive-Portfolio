@@ -13,13 +13,13 @@ header {
 }
 
 .name {
-    margin: 0;
+    table-layout: fixed;
     color: white;
     background-color: teal;
     display: flex;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: relative;
-    padding: 28px;
+    position: absolute;
+    padding: 10px;
 }
 
 
@@ -43,7 +43,7 @@ nav {
 }
 a {
     color: #777777;
-    font-size: 1.25rem;
+    font-size: 1rem;
     float: right;
     display: flex;
     text-decoration: none;
@@ -65,7 +65,7 @@ ul {
     display: flex;
     text-decoration: none;
     list-style: none;   
-    max-width: 960px;
+    max-width: 960px;    
 }
 
 main {
@@ -350,14 +350,36 @@ p {
 }
 
 @media screen and (max-width: 980px) {
+    .name {
+        margin-left: 50px;
+        padding: 28px;
+    }
+
+
     .contact-container {
         max-width: 600px;
+        margin-top: 20px;
+        left: 36%;
+    }
+    .contact {
+        width: 540px;
     }
     .form-container {
-        width: 500px;
+        width: 540px;
     }
-
-
+    .input1 {
+        width: 540px;
+    }
+    .input2 {
+        width: 540px;
+    }
+    .input3 {
+        width: 540px;
+    }
+    ul {
+        margin-right: 30px;
+    }
+}
 @media screen and (max-width: 768px) {
 
 }
