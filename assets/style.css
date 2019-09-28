@@ -43,7 +43,7 @@ nav {
 }
 a {
     color: #777777;
-    font-size: 1rem;
+    font-size: 1.25rem;
     float: right;
     display: flex;
     text-decoration: none;
@@ -350,12 +350,11 @@ p {
 }
 
 @media screen and (max-width: 980px) {
+    /* Contact */
     .name {
         margin-left: 50px;
         padding: 28px;
     }
-
-
     .contact-container {
         max-width: 600px;
         margin-top: 20px;
@@ -379,11 +378,58 @@ p {
     ul {
         margin-right: 30px;
     }
+    /* End of contact */
+
 }
 @media screen and (max-width: 768px) {
+    /* contact */
+    .name {
+        margin-left: 25px;
+    }
+    .contact-container {
+        margin-left: 110px;
+        top: 40%;
+        max-width: 720px;
+    }
+    .form-container {
+        width: 660px;
+    }
+    .input1 {
+        width: 660px;
+    }
+    .input2 {
+        width: 660px;
+    }
+    .input3 {
+        width: 660px;
+    }
+    
+    /*contact */
 
 }
 
 
 @media screen and (max-width: 640px) {
-
+    /*contact */
+    header {
+        position: static;
+    }
+    .contact-container {
+        width: 600px;
+        margin-left:90px;
+    }
+    .form-container {
+        width: 550px;
+    }
+    .input1 {
+        width: 550px;
+    }
+    .input2 {
+        width: 550px;
+    }
+    .input3 {
+        width: 550px;
+    }
+    
+        
+    }
