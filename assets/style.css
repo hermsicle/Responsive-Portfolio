@@ -19,7 +19,8 @@ header {
     display: flex;
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: absolute;
-    padding: 10px;
+    padding: 28px;
+    margin-left: 80px;
 }
 
 
@@ -397,13 +398,42 @@ p {
     }
     p {
         font-size: 8px;
-        font
+        
     }
     .img {
         height: 100px;
         width: 75px;
     }
 }
+.portfolio-container {
+    width:550px;
+    left: 33%;
+}
+
+.port-container {
+    width:500px;
+    
+}
+.portfolio {
+    
+}
+
+.text-block1 {
+    padding-left: 105px;
+}
+.text-block2 {
+    padding-left: 110px;
+}
+.text-block3 {
+    padding-left: 108px;
+}
+.text-block4 {
+    padding-left: 110px;
+}
+.text-block5 {
+    padding-left: 108px;
+}
+
 @media screen and (max-width: 768px) {
     /* contact */
     .name {
@@ -429,9 +459,33 @@ p {
     .input3 {
         width: 660px;
     }
-    
     /*contact */
 
+    /* Aout me */
+    .container1 {
+        width: 750px;
+        left: 50%;
+        height: 450px;
+        top: 40%;
+    }
+    .contact {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .aboutme-container {
+        width: 700px;
+        height: 340px;
+    }
+    p {
+        font-size: 10px;
+        
+    }
+    .img {
+        height: 250px;
+        width: 120px;
+    }
+
+    /*Aout me end */
 }
 
 
@@ -469,3 +523,29 @@ p {
         width: 550px;
     }
     /*contact */
+
+    /* Aout me */
+
+    .container1 {
+        width: 600px;
+        left: 50%;
+        height: 580px;
+        top: 45%;
+    }
+    .contact {
+        font-size: 28px;
+        margin-top: 25px;;
+    }
+    .aboutme-container {
+        width: 580px;
+        height: 440px;
+    }
+    p {
+        font-size: 12px;
+
+        
+    }
+    .img {
+
+    }
+    /*Aout me */
